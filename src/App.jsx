@@ -1,8 +1,12 @@
-import React from 'react'
+import ButtonGradient from "./assets/svg/ButtonGradient";
+import Button from './components/Button'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+     <Button className="mt-10">Something</Button>
+     <ButtonGradient />
+    </>
   )
 }
 
